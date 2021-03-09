@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, nav, div {
+    /* border: 2px green solid; */
+}
+
+body {
+    font-family: 'Crimson Text', sans-serif;
+    font-size: 18px;
+    
+}
+
+p {
+    line-height: 1.5;
+    text-align: left;
+}
+
+section {
+    /* border: 4px red solid; */
+    /* min-height: 650px;
+    height: auto; */
+       
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column { 
+    flex-direction: column;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 70px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    width: 120px;
+    height: 65px;
+    margin: 5px;
+}
+
+/* home */
+
+#home {
+    background: url(images/background4.jpg) no-repeat, center;
+    background-size: cover;
+    height: 750px;
+    
+}
+
+h1 {
+
+    color: white;
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+
+}
+.deuxiemeTitre {
+    margin-top : 150px;
+    margin-right : 30px;
+}
+.premierTitre {
+    margin-left: 130px;
+}
+.home-container {
+    padding-top: 200px;
+    padding-left: 70px;
+}
+
+
+/* L'association */
+
+#about {
+    padding : 60px;
+    height: 600px;
+    height: auto;
+    background-image: linear-gradient(to bottom, #6b6969, #8e8b8b, #b2aeae, #d8d2d2, #fff8f8);
+
+}
+
+
+h2 {
+    color:  #c62d1f;
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+
+.myButton {
+	box-shadow: 9px -6px 0px 2px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border:5px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Lato", sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 47px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #810e05;
+    margin-top: 30px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+
+.tick {
+   
+    margin-right: 70px;
+    
+}
+
+.texte-about {
+    gap: 50px;
+}
+
+button{
+    margin-top: 15px;
+}
+
+/* ACTUS */
+
+#actus {
+    
+    height: auto;
+    padding : 60px;
+   
+}
+
+.actus-contenu {
+    height: auto;
+}
+
+.news {
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    height: auto;
+    gap: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+ 
+}
+.peronne, .justice, .assemblée {
+    max-width: 100%;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.news-body {
+    padding: 20px;
+    gap: 10px;
+}
+
+/* Medecins */
+
+#Medecins {
+    height :600px;
+    background: url(images/doctors.jpg) no-repeat, center;
+    background-size: cover;
+    padding: 60px;
+}
+span{
+    color: white;
+    text-align: center;
+}
+
+.texte-referents {
+    /* border: 2px orange solid; */
+    float: right;
+    
+}
+
+button{
+    text-align: center;
+}
+
+
+/* En région */
+
+
+#Regions {
+    background: url(images/region.jpg) no-repeat, center;
+    background-size: cover;
+    padding: 60px;
+    height: 600px;
+}
+.region-contenu {
+    float: center;
+    margin-top: 150px;
+}
+
+/* Ressources */
+
+#Ressources {
+    background: url(images/);
+    padding: 60px;;
+}
+
+.bibliothèque {
+    height: 400px;
+    width: 600px;
+}
+
+.contenu-ressources {
+    gap: 50px;
+}
+
+.texte-ressources {
+    gap: 30px;
+}
+
+/* ADHEREZ */
+#adhere {  
+    padding: 60px;
+    height: 400px;
+   
+}
+
+.texte-center {
+    text-align: center;
+}
+
+.adhere-contenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+/* footer */
+
+#bas-page {
+    background-color :#c62d1f;
+    height: 400px;
+    padding: 50px;
+}
+
+h4 {
+    color: white;
+    margin-bottom: 30px;
+}
+.main-content {
+    gap: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.box {
+    height: 100px;
+    gap: 5f0px;
+}
+
+.box1 {
+    width:400px;
+}
+
+.box3 {
+    width: 300px;
+    
+}
+
+.formulaire-contenu {
+    gap: 30px;;
+}
+.social {
+    gap : 30px;
+}
+.social img {
+    margin-right: 30px;
+}
+
+input, textarea {
+    width: 250px;
+   
+}
+
+input {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.myButton2 {
+    background-color:#000000;
+    box-shadow: 9px -6px 0px 2px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #414141 100%);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Lato", sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 47px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #810e05;
+    margin-top: 30px;
+}
+
+.placeholder {
+    font-family: "Lato", sans-serif;
+}
+
+
